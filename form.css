@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+    background-color:  #f0ebf8;
+    font-size: 16px;
+}
+
+.main {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: rgb(0,0,0.8);
+}
+
+/* Typography */
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+    padding-top: 0;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+ p {
+    color: rgb(32, 33, 36);
+    margin-top: 12px;
+    font-weight: 400;
+    letter-spacing: .2px;
+    line-height: 20px;
+    font-size: 14px;
+ }
+
+ span {
+    font-weight: bold;
+ }
+
+ /* Content */
+
+ .container {
+    width: 89%;
+    background-color:#fff;
+    border: 1px solid rgb(218, 220, 224);
+    border-radius: 8px;
+    color: rgb(32, 33, 36);
+    margin-bottom: 10px;
+ }
+
+ .hero {
+    border-top: 10px solid rgb(103, 58, 183);
+    color: rgb(32, 33, 36);
+ }
+ .hero .second-paragraph {
+    color:rgb(95, 99, 104);
+ }
+
+ .hero h4 {
+    color: rgb(95, 99, 104);
+    font-size: 14px;
+    font-weight: 700;
+    padding-left: 24px;
+    padding-right: 24px;
+ }
+
+ .hero img {
+   height: 25px;
+ }
+
+.hero .question {
+    color: rgb(217, 48, 37);
+    font-weight: 400;
+}
+ .hero p {
+    border-bottom: 1px solid rgb(218, 220, 224);
+    padding-bottom: 10px;
+    padding-left: 24px;
+    padding-right: 24px;
+ } 
+
+ .hero a {
+    color: #15c;
+    font-weight: 400;
+    letter-spacing: .2px;
+    text-decoration: none;
+ }
+
+ /* user input section */
+
+
+ .box input { 
+    width: 48%;
+    border: none;
+    outline-color: transparent;
+    font-size: 14px;
+    border-bottom: 1px solid rgb(218, 220, 224);
+    margin-bottom: 24px;
+    margin-left: 24px;
+ }
+
+ .box p {
+    font-size: 16px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 24px;
+ }
+
+ .box p:after {
+    content: "*";
+    color: rgb(217, 48, 37);
+    padding-left: 3px;
+ }
+
+ .container .upload {
+    font-size: 12px;
+    padding-top: 0;
+    color:#70757a;
+    font-weight: 400
+ }
+
+ .container #file {
+    border-bottom: none;
+ }
+
+    .footer {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    }
+ .button-clear {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 90px;
+ }
+ .button-clear a {
+    text-decoration: none;
+ }
+
+ .footer p {
+    padding-right: 70px;
+    font-size: 11px;
+    color:#70757a;
+ }
+
+ .footer .terms, h2 {
+    text-align: center;
+    color:#70757a;
+ }
+
+ .footer h2 {
+    font-weight: 600;
+ }
+
+ .footer span {
+    font-weight: 400;
+ }
+ .footer a {
+    color:#70757a;
+    font-size: 13px;
+    color: rgb(103, 58, 183);
+ }
+
+ .footer .btn {
+    background-color: rgb(103, 58, 183);
+    color: white;
+    padding: 10px 25px;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 4px;
+ }
+ 
+ .footer .btn a{
+    color: white;
+ }
+
+
+
+
