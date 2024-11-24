@@ -11,7 +11,6 @@ body {
     background-color:  #f0ebf8;
     font-size: 16px;
     width: 100%;
-    overflow: hidden;
 }
 
 .main {
@@ -188,37 +187,25 @@ h1 {
  @media (max-width:480px) {
 
    body {
-      overflow: hidden;
       width: 100%;
    }
    .main {
       display: block;
-      width: 98.5%;
+      width: 100%;
       margin: 0 auto;
       border-radius: 5px;
   }
 
   .container {
-   display: block;
    width: 100%;
-    margin: 0 auto;
     margin-bottom: 10px;
 }
 
-
- }
-
  @media(max-width:767px){
-   body {
-      overflow: hidden;
-   }
 
    .main {
-     
       width: 70%;
-     
-      border-radius: 8px
-    
+      border-radius: 8px;
   }
 
   .container {
@@ -238,7 +225,6 @@ h1 {
  }
 
  @media(max-width:1280px){
-
    .main {
       display: block;
       width: 50%;
@@ -252,6 +238,4 @@ h1 {
     margin-bottom: 10px;
 }
 
-
-
-
+}
