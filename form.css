@@ -19,6 +19,12 @@ body {
     margin: 0 auto;
     border-radius: 8px;
     box-shadow: rgb(0,0,0.8);
+    padding-top: 30px;
+   
+}
+
+.hero{
+   margin-top: 30px;
 }
 
 /* Typography */
@@ -57,6 +63,7 @@ h1 {
  .hero {
     border-top: 10px solid rgb(103, 58, 183);
     color: rgb(32, 33, 36);
+    margin-top: 20px;
  }
  .hero .second-paragraph {
     color:rgb(95, 99, 104);
@@ -131,17 +138,21 @@ h1 {
 
     .footer {
     display: block;
-    width: 50%;
+    width: 90%;
     margin: 0 auto;
     }
  .button-clear {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: flex-start;
     padding-right: 90px;
  }
+
  .button-clear a {
     text-decoration: none;
  }
+
+
 
  .footer p {
     padding-right: 70px;
@@ -200,6 +211,16 @@ h1 {
     margin-bottom: 10px;
     
 }
+
+.footer {
+   width: 95%;
+  
+   }
+
+   .button-clear .clear {
+      margin-left: 16.5rem;
+      display:block;
+    }
 }
 
  /* @media(max-width:767px){
