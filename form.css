@@ -15,7 +15,7 @@ body {
 
 .main {
     display: block;
-    width: 50%;
+    width: 90%;
     margin: 0 auto;
     border-radius: 8px;
     box-shadow: rgb(0,0,0.8);
@@ -46,7 +46,7 @@ h1 {
  /* Content */
 
  .container {
-    width: 89%;
+    width: 100%;
     background-color:#fff;
     border: 1px solid rgb(218, 220, 224);
     border-radius: 8px;
@@ -186,27 +186,29 @@ h1 {
 
  @media (max-width:480px) {
 
-   body {
-      width: 100%;
-   }
    .main {
       display: block;
       width: 100%;
       margin: 0 auto;
       border-radius: 5px;
+
   }
 
   .container {
-   width: 100%;
+   width: 95%;
+   margin: auto;
     margin-bottom: 10px;
+    
+}
 }
 
- @media(max-width:767px){
+ /* @media(max-width:767px){
 
    .main {
       width: 70%;
       border-radius: 8px;
   }
+
 
   .container {
    display: block;
@@ -238,4 +240,4 @@ h1 {
     margin-bottom: 10px;
 }
 
-}
+} */
