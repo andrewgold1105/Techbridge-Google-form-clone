@@ -164,8 +164,10 @@ h1 {
  }
 
  .footer .terms, h2 {
-    text-align: center;
+   text-align: center;
     color:#70757a;
+    margin-top: 15px;
+    margin-bottom: 15px;
  }
 
  .footer h2 {
@@ -221,14 +223,21 @@ h1 {
    }
 
 
-    h1 {
-      font-size: 20px;
+   .footer h1 {
+      font-size: 40px;
+    }
+
+      h2 {
+         text-align: center;
+      font-size: 25px;
+      margin-top: 15px;
     }
 
     .footer .terms {
-    width: 100%;
-  margin-left: 30px;
-  font-size: 12px;
+      width: 100%;
+   margin-left: 50px;
+   font-size: 12px;
+   margi
     }
 
     .footer .terms a {
@@ -251,10 +260,6 @@ h1 {
     margin: 0 auto;
     margin-bottom: 10px;
 } */
-
-
-
-
 
 
 
