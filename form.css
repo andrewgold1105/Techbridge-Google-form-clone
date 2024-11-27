@@ -23,15 +23,23 @@ body {
    
 }
 
+.main .logo img{
+   width: 100%;
+  border-radius: 10px;
+  margin-bottom: -8px;
+  border: 1px solid rgb(218, 220, 224);
+
+}
+
 .hero{
-   margin-top: 30px;
+   margin-top: 0px;
 }
 
 /* Typography */
 h1 {
     font-size: 2.4rem;
     font-weight: bold;
-    padding-top: 0;
+    padding-top: 15px;
     padding-left: 24px;
     padding-right: 24px;
 }
@@ -71,24 +79,25 @@ h1 {
 
 
  .email-cloud {
+   display: flex;
+   justify-content: space-between;
    padding-left: 24px;
+   padding-right: 28px;
    margin-top: 13px;
  }
 
  .box .email-box {
    display: flex;
    align-items: center;
-   font-weight: 300;
+ 
  }
 
- .box .email-box input[type="checkbox"] {
-   width: 30px;
-   margin-top: 25px;
- }
+
 
  .box .email-box h4 {
    font-weight: 300;
    font-size: 15px;
+   margin-bottom: 10px;
  }
 
  .box .email-box strong {
@@ -127,7 +136,14 @@ h1 {
 
  /* user input section */
 
-
+ input[type="checkbox"] {
+   width: 20px;
+   height: 20px;
+   accent-color: #007bff;
+   border-radius: 5px;
+   margin-right: 20px;
+ }
+ 
  .box input { 
     width: 48%;
     border: none;
@@ -282,6 +298,14 @@ h1 {
 
   }
 
+  .main .logo img{
+   width: 100%;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  border: 1px solid rgb(218, 220, 224);
+
+}
+
   .container {
    width: 100%;
    margin: auto;
@@ -291,8 +315,12 @@ h1 {
 }
 
 .hero h1 {
-   font-size: 2rem;
+   font-size: 1.8rem;
    margin-top: 10px;
+}
+
+.hero .email-cloud {
+   display: block;
 }
 
 .hero .email-cloud h4 {
@@ -339,6 +367,19 @@ h1 {
    margin-left: 24px;
    margin-top: 15px;
 }
+
+input[type="checkbox"] {
+   width: 20px;
+   height: 20px;
+   accent-color: #007bff;
+   border-radius: 5px;
+   margin-right: 10px;
+ }
+
+ .email-box #record {
+   display: block;
+        
+ }
 
 .footer {
    width: 100%;
