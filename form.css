@@ -29,7 +29,7 @@ body {
 
 /* Typography */
 h1 {
-    font-size: 2rem;
+    font-size: 2.4rem;
     font-weight: bold;
     padding-top: 0;
     padding-left: 24px;
@@ -69,12 +69,36 @@ h1 {
     color:rgb(95, 99, 104);
  }
 
+
+ .email-cloud {
+   padding-left: 24px;
+   margin-top: 13px;
+ }
+
+ .box .email-box {
+   display: flex;
+   align-items: center;
+   font-weight: 300;
+ }
+
+ .box .email-box input[type="checkbox"] {
+   width: 30px;
+   margin-top: 25px;
+ }
+
+ .box .email-box h4 {
+   font-weight: 300;
+   font-size: 15px;
+ }
+
+ .box .email-box strong {
+   font-weight: 500;
+ }
  .hero h4 {
     color: rgb(95, 99, 104);
     font-size: 14px;
     font-weight: 700;
-    padding-left: 24px;
-    padding-right: 24px;
+    margin-bottom: 15px;
  }
 
  .hero img {
@@ -84,6 +108,8 @@ h1 {
 .hero .question {
     color: rgb(217, 48, 37);
     font-weight: 400;
+    padding-left: 24px;
+    padding-top: 15px;
 }
  .hero p {
     border-bottom: 1px solid rgb(218, 220, 224);
@@ -107,11 +133,57 @@ h1 {
     border: none;
     outline-color: transparent;
     font-size: 14px;
-    border-bottom: 1px solid rgb(218, 220, 224);
+    border-bottom: 2px solid rgb(218, 220, 224);
     margin-bottom: 24px;
     margin-left: 24px;
+    margin-top: 15px;
+    padding-bottom: 3px;
  }
 
+ 
+
+ .hero .box .surname {
+   transition: all 0.5s ease;
+ }
+
+  #surname:focus {
+   border-bottom: 2px solid #007bff;
+ }
+ 
+ #surname:focus::before,
+ #surname:focus::after {
+   content: "";
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+   width: 50%;
+   height: 2px;
+   background-color: #007bff;
+   transition: all .5s ease;
+ }
+
+ #surname:focus::before {
+   left: 50%;
+   transform: translateY(-50%) scaleX(1);
+   transform-origin: left;
+ }
+
+ #surname:focus::after {
+   right: 50%;
+   transform: translateY(-50%) scaleX(1);
+   transform-origin: right;
+ }
+
+ #surname:not(:focus)::before,
+ #surname:not(:focus)::after {
+   width: 50%;
+  transition: width 0.5s ease;
+
+}
+
+ 
+ 
+ 
  .box p {
     font-size: 16px;
     padding-left: 24px;
@@ -214,7 +286,58 @@ h1 {
    width: 100%;
    margin: auto;
     margin-bottom: 10px;
+    padding-bottom: 5px;
     
+}
+
+.hero h1 {
+   font-size: 2rem;
+   margin-top: 10px;
+}
+
+.hero .email-cloud h4 {
+   padding-right: 70px;
+}
+
+.hero h4 {
+   color: rgb(95, 99, 104);
+   font-size: 14px;
+   font-weight: 500;
+   margin-bottom: 15px;
+}
+
+.box .email-box {
+   display: flex;
+   align-items: center;
+   font-weight: 300;
+   padding-bottom: 10px;
+   padding-right: 5px;
+ }
+
+ .box .email-box h4 {
+   font-weight: 300;
+   font-size: 14px;
+ }
+
+ .box #mail {
+   padding-bottom: 18px;
+   padding-top: 3px;
+ }
+
+ .box p {
+   padding-bottom: 20px;
+   padding-top: 3px;
+   font-size: 14px;
+ }
+.box input { 
+   width: 80%;
+   border: none;
+   outline-color: transparent;
+   font-size: 14px;
+   border-bottom: 2px solid rgb(218, 220, 224);
+   margin-bottom: 24px;
+   margin-left: 24px;
+   margin-top: 15px;
 }
 
 .footer {
@@ -230,7 +353,7 @@ h1 {
       h2 {
          text-align: center;
       font-size: 25px;
-      margin-top: 15px;
+      margin-top: 5px;
     }
 
     .footer .terms {
